@@ -1,0 +1,31 @@
+.bc{
+    background-image: url(/img/banner1.png);
+    height: 500px;
+}
+h1:hover{
+    color: aqua;
+    font-weight: 700px;
+    background-color: black;
+    font-size: 50px;
+
+}
+.first:focus{
+    color: blue;
+    font-size: 50px;
+    background-color: aquamarine;
+
+}
+a:visited{
+    color:red;
+}
+li:first-child {
+   background-color: tomato;
+}
+li:nth-child(2n){
+    color: blue;
+    background-color: aquamarine;
+}
+h3::before{
+  content: 'Hellow ';    
+}
+
